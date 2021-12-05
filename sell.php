@@ -88,7 +88,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
 
                             <div class="d-flex flex-row align-items-center mb-4">
                                 <div class="form-outline flex-fill mb-0">  
-                                    <input class="form-control" name="modelname" id="modelname" type="text">
+                                    <input class="form-control" name="modelname" id="modelname" type="text" required>
                                     <label class="form-label" for="modelname">Car Model Name</label>
                                 </div>
                             </div>

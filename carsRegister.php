@@ -82,15 +82,21 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
                         <?php   
                             if($resultCheck > 0) {
                             while($row = mysqli_fetch_assoc($result)) {
-                               
+                              $carID=$row['carID']; 
                             ?>
                                         <tbody>
                                             <tr>
                                             <th scope="row"><?php echo $row['carID'];?></th>
                                             <td><?php echo $row['carModel'];?></td>
                                             <td><?php echo $row['userID'];?></td>
-                                            <td>
-                                                <form id="deleter" method="POST" action="carDelete.php">
+                                            <td>                                                
+                                                <form method="POST" id="showMore" action="adminCarShow.php">
+                                                    <select hidden name="carID">
+                                                        <option value="<?php echo $carID?>" selected hidden></option>
+                                                    </select> 
+                                                    <button onclick="showMore.submit()" class="btn btn-secondary mx-1">Show</button>
+                                                </form>
+                                                <form class="mt-1" id="deleter" method="POST" action="carDelete.php">
                                                     <select hidden name="deleteCar">
                                                             <option value="<?php echo $row['carID']?>"></option>
                                                     </select>

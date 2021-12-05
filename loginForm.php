@@ -49,14 +49,14 @@
         
                         <div class="d-flex flex-row align-items-center mb-4">
                             <div class="form-outline flex-fill mb-0">
-                            <input type="email" id="email" name="email" class="form-control" />
+                            <input type="email" id="email" name="email" class="form-control" required />
                             <label class="form-label" for="email">Email</label>
                             </div>
                         </div>
         
                         <div class="d-flex flex-row align-items-center mb-4">
                             <div class="form-outline flex-fill mb-0">
-                            <input type="password" id="password" name="password" class="form-control" />
+                            <input type="password" id="password" name="password" class="form-control" required/>
                             <label class="form-label" for="password">Password</label>
                             </div>
                         </div>

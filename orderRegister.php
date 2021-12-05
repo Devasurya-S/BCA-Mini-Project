@@ -62,7 +62,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['email'])) {
                 <div class="row">
                 <h6>Admin Dashbord</h6>
                     <div class="col-sm-4 list-group">
-                        <a href="userDashbord.php.php" class="list-group-item list-group-item-action">Users Registered</a>
+                        <a href="adminDashbord.php" class="list-group-item list-group-item-action">Users Registered</a>
                         <a href="carsRegister.php" class="list-group-item list-group-item-action">Cars Registered</a>
                         <a href="orderRegister.php" class="list-group-item list-group-item-action active">Orders Registered</a>
                     </div>

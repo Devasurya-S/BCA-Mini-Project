@@ -51,7 +51,7 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                            <input type="text" name="name" id="name" class="form-control" />
+                            <input type="text" name="name" id="name" class="form-control" required/>
                             <label class="form-label" for="name">Your Name</label>
                             </div>
                         </div>
@@ -59,7 +59,7 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                            <input type="email" id="email" name="email" class="form-control" />
+                            <input type="email" id="email" name="email" class="form-control" required />
                             <label class="form-label" for="email">Your Email</label>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                            <input type="password" name="password" id="password" class="form-control" />
+                            <input type="password" name="password" id="password" class="form-control" required />
                             <label class="form-label" for="password">Password</label>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                            <input type="number" id="phoneNumber" name="phoneNumberr" class="form-control" />
+                            <input type="number" id="phoneNumber" name="phoneNumberr" class="form-control" required />
                             <label class="form-label" for="phoneNumber">Phone Number</label>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                            <textarea id="address" name="address" class="form-control" rows="4"></textarea>
+                            <textarea id="address" name="address" class="form-control" rows="4" required></textarea>
                             <label class="form-label" for="address">Address</label>
                             </div>
                         </div>
